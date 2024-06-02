@@ -1,0 +1,10 @@
+GET http://localhost:5074/posts
+
+###
+POST http://localhost:5074/posts
+Content-Type: application/json
+
+{
+    "Title": "Devin AI",
+    "Content" : "Would Devin be the end of Software Engineers"
+}
